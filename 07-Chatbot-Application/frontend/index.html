@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Customer Support Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="chat-container">
+    <header class="chat-header">
+        <div>
+            <h1>AI Support Assistant</h1>
+            <p>Customer Support Chatbot</p>
+        </div>
+        <button id="clearChat" type="button">Clear Chat</button>
+    </header>
+
+    <main id="chatMessages" class="chat-messages">
+        <div class="message bot-message">
+            <div class="message-label">AI Assistant</div>
+            <div class="message-content">Hello! How can I help you today?</div>
+        </div>
+    </main>
+
+    <div id="loadingIndicator" class="loading hidden">
+        AI Assistant is typing...
+    </div>
+
+    <form id="chatForm" class="chat-input-area">
+        <input type="text" id="messageInput"
+               placeholder="Type your message..."
+               autocomplete="off" maxlength="2000">
+        <button id="sendButton" type="submit">Send</button>
+    </form>
+
+    <div id="errorMessage" class="error-message hidden"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
