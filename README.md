@@ -1,5 +1,6 @@
 # AI_Chatbot_QA_Testing
-# AI Customer Support Chatbot - Manual QA Testing
+
+# AI Customer Support Chatbot 
 
 An independent QA portfolio project demonstrating manual testing of an AI customer-support chatbot.
 
